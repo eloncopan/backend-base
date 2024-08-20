@@ -59,7 +59,7 @@ describe("Calculadora", () => {
             .expect("Content-Type", /text/)
             .expect(200)
             .then((response) => {
-                expect(response.text).toBe("Hola mundo al usuario cmd");
+                expect(response.text).toBe("Hola mundo al usuario eloncopan");
             })
     });
 

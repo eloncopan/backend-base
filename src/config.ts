@@ -1,4 +1,4 @@
 export const configuration = {
-    username: process.env.USERNAME,
+    username: process.env.LOGNAME,
     port: 3001
 }
